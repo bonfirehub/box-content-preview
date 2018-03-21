@@ -76,7 +76,7 @@ class DocLoader extends AssetLoader {
      *
      * @param {Object} file - Box file
      * @param {Object} viewer - Chosen Preview viewer
-     * @param {Boolen} useOriginalRepresentation - Use original representation over PDF representation
+     * @param {boolean} useOriginalRepresentation - Use original representation over PDF representation
      * @return {Object} The representation to load
      */
     determineRepresentation(file, viewer, useOriginalRepresentation) {
